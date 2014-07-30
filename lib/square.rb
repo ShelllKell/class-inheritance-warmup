@@ -7,6 +7,9 @@ class Square
   end
 
   def area
-    @side * @side
+    side**2
   end
+
 end
+
+square = Square.new(5)

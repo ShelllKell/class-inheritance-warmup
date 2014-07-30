@@ -8,15 +8,14 @@ class Rectangle
   end
 
   def perimeter
-    (@length + @width) * 2
+    (length + width) * 2
   end
 
   def area
-    @length * @width
+    length * width
   end
-
 
 end
 
-rectangle = Rectangle.new(10, 5)
+
 
