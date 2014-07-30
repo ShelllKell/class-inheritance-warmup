@@ -8,7 +8,7 @@ describe Rectangle do
       rec = Rectangle.new(10, 5)
       expect(rec.width).to eq(5)
     end
-    
+
     it "length" do
       rec = Rectangle.new(10, 5)
       expect(rec.length).to eq(10)

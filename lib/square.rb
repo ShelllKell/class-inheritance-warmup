@@ -12,4 +12,3 @@ class Square
 
 end
 
-square = Square.new(5)
